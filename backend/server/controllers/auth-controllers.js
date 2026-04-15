@@ -6,7 +6,7 @@ import bcrypt from "bcryptjs";
 export const home = async (req, res) => {
   try {
     // console.log(req.body); //req.body is used to get the data from the request
-    res.status(200).send("Hello Login!");
+    res.status(200).send("Backend is running 🚀");
   } catch (error) {
     res.status(500).send(error.message);
   }
